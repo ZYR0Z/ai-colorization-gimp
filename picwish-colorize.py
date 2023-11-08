@@ -5,7 +5,7 @@ from gimpfu import *
 import os
 import requests
 import base64
-import time
+
 
 
 # Initalise all user specific paths
