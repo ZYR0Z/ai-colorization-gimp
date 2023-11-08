@@ -26,3 +26,4 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 ### Linux Specifc Installation:
 -> Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`
 
+![Screenshot 2023-11-08 212923](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/e608503a-8ff3-4c7d-af25-80a73d00bfce)
