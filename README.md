@@ -28,7 +28,7 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 -> Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`
 
 
-TODO:
+## TODO:
 - [ ] Add Linux Support (primarily Arch based)
 - [ ] Add installation Script using Rust for Windows and Linux
 - [ ] Maybe create a precompiled binary with Cython to C (wouldn't effect performance much)
