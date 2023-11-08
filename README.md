@@ -3,7 +3,8 @@
 A Gimp plugin for automated colorzation of layers, using the [PicWish Colorization API](https://picwish.com/photo-colorization-api).
 
 ## Plugin Overview
-<img title="Explanation" alt="Explanation" src="https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/2b7e8966-b250-4950-b651-f67e22deed19" width="600"></img>
+
+![Unbenannt-2023-11-08-1859](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/62ed6bb8-25d9-4a5c-b034-7a414ce6a07c)
 
 ## Plugin Installation
 Download [picwish-colorize.py](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py) from this repo and place it into your Plugins folder! <br>
