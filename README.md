@@ -18,7 +18,7 @@ Place in this folder -> `C:\Users\{YOUR USERNAME}\AppData\Roaming\GIMP\2.10\plug
 
 You can also find your Plugin folder in your gimp preferences in the submenu `Folders` -> `Plug-in Folders` (shown in screenshot below)
 
-<img title="Plugin Location Windows" alt="Plugin Location Windows" src="https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/39473c46-fde1-4ba3-9583-7b9b2a2b2e92" width="900"></img>
+![Screenshot 2023-11-08 212923](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/e608503a-8ff3-4c7d-af25-80a73d00bfce)
 
 <br>
 <br>
@@ -26,4 +26,4 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 ### Linux Specifc Installation:
 -> Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`
 
-![Screenshot 2023-11-08 212923](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/e608503a-8ff3-4c7d-af25-80a73d00bfce)
+
