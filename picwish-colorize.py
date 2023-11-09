@@ -130,11 +130,11 @@ def colorize_on_server(input_path, output_path):
     image_encoded = response.json()["data"]["image"]
 
     # Just for debbuging
-    debug_path = os.path.join(
-        tmp_path, "debug.json"
-    )  # In order to run this also export the tmp_path from get_user_path()
-    with open(debug_path, "w") as file:
-        file.write(response.json())
+    # debug_path = os.path.join(
+    #     tmp_path, "debug.json"
+    # )  # In order to run this also export the tmp_path from get_user_path()
+    # with open(debug_path, "w") as file:
+    #     file.write(response.json())
 
     image_decoded = base64.b64decode(image_encoded)
 
