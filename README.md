@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
-![Unbenannt-2023-11-08-1859](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/62ed6bb8-25d9-4a5c-b034-7a414ce6a07c)
+![explanation](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/3d56fca0-a18d-4726-8ebc-6a94eb13a108)
 
 <!-- BUILT WITH -->
 ### Built with
@@ -77,7 +77,7 @@ _~Currenlty no support, I am waiting for the AUR Repo to be updated to support `
 I create an .sh script for the installation! Just download it here: [/scripts/install_linux.sh](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/scripts/install_linux.sh) and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
 You will be promted to enter your API key just follow the instrutctions in the [General Installation](https://github.com/ZYR0Z/ai-colorization-gimp/tree/master#general-installation) <br> <br>
 To manually install it just do the same as Windows, just look where your plug-ins folder is located! <br> <br>
-_-> There will be an installation script be added in the future to automate this process!_
+_~-> There will be an installation script be added in the future to automate this process!~_
 
 
 <!-- USAGE EXAMPLES -->
