@@ -64,9 +64,12 @@ The Plugin is built using Python 2 (will be updated to Python 3 once GIMP suppor
 <!-- WINDOWS INSTALLATION -->
 ### Windows specific installation
 
-Place ypur Python and JSON file into this folder -> `C:\Users\{YOUR USERNAME}\AppData\Roaming\GIMP\2.10\plug-ins` <br>
+I created an .bat script for the installation! Just download it here: [/scripts/install_windows.bat](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/scripts/install_windows.bat) and run it by clicking on it! <br>
+You will be promted to enter your API key just follow the instrutctions in the [General Installation](https://github.com/ZYR0Z/ai-colorization-gimp/tree/master#general-installation) <br> <br>
 
-You can also find your Plugin folder in your gimp preferences in the submenu `Folders` -> `Plug-in Folders` (_shown in screenshot below_)
+_**To manually install it:** <br>
+Place your Python and JSON file into this folder -> `C:\Users\{YOUR USERNAME}\AppData\Roaming\GIMP\2.10\plug-ins` <br>
+You can also find your Plugin folder in your gimp preferences in the submenu `Folders` -> `Plug-in Folders` (shown in screenshot below)_
 
 ![Screenshot 2023-11-08 212923](https://github.com/ZYR0Z/ai-colorization-gimp/assets/88033542/e608503a-8ff3-4c7d-af25-80a73d00bfce)
 
@@ -74,7 +77,7 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 <!-- LINUX INSTALLATION -->
 ### Linux specific installation
 _~Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`~_ <br> <br>
-I create an .sh script for the installation! Just download it here: [/scripts/install_linux.sh](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/scripts/install_linux.sh) and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
+I created an .sh script for the installation! Just download it here: [/scripts/install_linux.sh](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/scripts/install_linux.sh) and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
 You will be promted to enter your API key just follow the instrutctions in the [General Installation](https://github.com/ZYR0Z/ai-colorization-gimp/tree/master#general-installation) <br> <br>
 To manually install it just do the same as Windows, just look where your plug-ins folder is located! <br> <br>
 _~-> There will be an installation script be added in the future to automate this process!~_
