@@ -74,7 +74,7 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 <!-- LINUX INSTALLATION -->
 ### Linux specific installation
 _~Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`~_ <br> <br>
-I create an .sh script for the installation! Just download it here: [/scripts/install_linux.sh]() and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
+I create an .sh script for the installation! Just download it here: [/scripts/install_linux.sh](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/scripts/install_linux.sh) and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
 You will be promted to enter your API key just follow the instrutctions in the [General Installation](https://github.com/ZYR0Z/ai-colorization-gimp/tree/master#general-installation) <br> <br>
 To manually install it just do the same as Windows, just look where your plug-ins folder is located! <br> <br>
 _-> There will be an installation script be added in the future to automate this process!_
