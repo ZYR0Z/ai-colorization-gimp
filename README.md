@@ -72,7 +72,9 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 
 <!-- LINUX INSTALLATION -->
 ### Linux specific installation
--> Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`
+_~Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`~_ <br> <br>
+The same as Windows, just look where your plug-ins folder is located! <br> <br>
+_-> There will be an installation script be added in the future to automate this process!_
 
 
 <!-- USAGE EXAMPLES -->
