@@ -55,7 +55,8 @@ The Plugin is built using Python 2 (will be updated to Python 3 once GIMP suppor
 ## General installation
 
 * Download [picwish-colorize.py](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py) from this repo and place it into your Plugins folder! <br>
-* Go to [picwish.com](https://picwish.com/) and login and then go to your account settings and copy your API Key [here](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py#L88) in the Python file!
+* Go to [picwish.com](https://picwish.com/) and login and then go to your account settings and copy it. <br>
+* Also download the example [JSON](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/colorize_api_key.json#L2) file and replace the api_key with your copied API key!
 <br>
 -> Then you should be good to go! You can find the Plugin under Filters -> Enhance -> Colorizer (PicWish API)
 
@@ -63,7 +64,7 @@ The Plugin is built using Python 2 (will be updated to Python 3 once GIMP suppor
 <!-- WINDOWS INSTALLATION -->
 ### Windows specific installation
 
-Place in this folder -> `C:\Users\{YOUR USERNAME}\AppData\Roaming\GIMP\2.10\plug-ins` <br>
+Place ypur Python and JSON file into this folder -> `C:\Users\{YOUR USERNAME}\AppData\Roaming\GIMP\2.10\plug-ins` <br>
 
 You can also find your Plugin folder in your gimp preferences in the submenu `Folders` -> `Plug-in Folders` (_shown in screenshot below_)
 
@@ -73,7 +74,9 @@ You can also find your Plugin folder in your gimp preferences in the submenu `Fo
 <!-- LINUX INSTALLATION -->
 ### Linux specific installation
 _~Currenlty no support, I am waiting for the AUR Repo to be updated to support `gimpfu`~_ <br> <br>
-The same as Windows, just look where your plug-ins folder is located! <br> <br>
+I create an .sh script for the installation! Just download it here: [/scripts/install_linux.sh]() and then run the command: `chmod +x install_linux.sh` and then run it like this: `./install_linux.sh`! <br>
+You will be promted to enter your API key just follow the instrutctions in the [General Installation](https://github.com/ZYR0Z/ai-colorization-gimp/tree/master#general-installation) <br> <br>
+To manually install it just do the same as Windows, just look where your plug-ins folder is located! <br> <br>
 _-> There will be an installation script be added in the future to automate this process!_
 
 
@@ -86,7 +89,7 @@ Just select the layer you want to colorize and then got to `Filters -> Enhance -
 ## Roadmap
 - [x] Add Linux Support (primarily Arch based)
 - [x] Add MacOS Support
-- [ ] Add installation script for Windows and Linux
+- [x] Add installation script for Windows and Linux
 - [ ] Maybe create a precompiled binary with Cython to C
     - [ ] Create Installer for Windows which places the Binary into the Plugins
     - [ ] Add as an AUR Package to be easily installed for Arch-based systems 
