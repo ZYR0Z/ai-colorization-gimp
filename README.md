@@ -55,7 +55,7 @@ The Plugin is built using Python 2 (will be updated to Python 3 once GIMP suppor
 ## General installation
 
 * Download [picwish-colorize.py](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py) from this repo and place it into your Plugins folder! <br>
-* Go to [picwish.com](https://picwish.com/) and login and then go to your account settings and copy your API Key [here](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py#L34) in the Python file!
+* Go to [picwish.com](https://picwish.com/) and login and then go to your account settings and copy your API Key [here](https://github.com/ZYR0Z/ai-colorization-gimp/blob/master/picwish-colorize.py#L88) in the Python file!
 <br>
 -> Then you should be good to go! You can find the Plugin under Filters -> Enhance -> Colorizer (PicWish API)
 
