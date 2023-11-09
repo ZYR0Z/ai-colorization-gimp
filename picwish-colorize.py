@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # Standard Libaries
+import json
 import platform
 import base64
 import os
@@ -13,7 +14,7 @@ from gimpfu import *
 # Main Function + Gimp Filter Registration
 def colorize(image, layer):
     # Get the system specific Path
-    input_path, output_path = get_user_path()
+    input_path, output_path, _current_system, _user_path = get_user_path()
 
     gimp.progress_init("Colorizing Image: '" + layer.name + "'...")
 
@@ -68,7 +69,7 @@ def get_user_path():
     if not os.path.exists(tmp_path):
         os.makedirs(tmp_path)
 
-    return input_path, output_path
+    return input_path, output_path, current_system, user_path
 
 
 # Export the current layer as .png and save to temporary input location
@@ -80,12 +81,48 @@ def create_tmp_file(image, layer, path):
         gimp.message("Unexpected error: " + str(err))
 
 
+# Read API key from JSON file
+def read_api_key():
+    _input_path, _output_path, current_system, user_path = get_user_path()
+    if current_system == "Linux":
+        api_key_file = os.path.join(
+            user_path,
+            ".config",
+            "GIMP",
+            "2.10",
+            "plug-ins",
+            "colorize_api_key.json",
+        )
+    elif current_system == "Windows":
+        api_key_file = os.path.join(
+            user_path,
+            "AppData",
+            "Roaming",
+            "GIMP",
+            "2.10",
+            "plug-ins",
+            "colorize_api_key.json",
+        )
+    else:
+        gimp.message("This Operating System is not supported!")
+        return ""
+
+    if os.path.exists(api_key_file):
+        with open(api_key_file, "r") as file:
+            api_key_data = json.load(file)
+            return api_key_data["api_key"]
+    else:
+        return ""
+
+
 # Send an API Request to the server and save the colorized image to the output_path
 def colorize_on_server(input_path, output_path):
+    api_key = read_api_key()
+
     response = requests.request(
         "POST",
         "https://techhk.aoscdn.com/api/tasks/visual/colorization",
-        headers={"X-API-KEY": "YOUR API CODE HERE"},
+        headers={"X-API-KEY": str(api_key)},
         data={"sync": "1", "return_type": "2", "format": "png"},
         files={"file": open(input_path, "rb")},
     )
