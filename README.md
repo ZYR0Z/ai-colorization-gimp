@@ -93,10 +93,10 @@ Just select the layer you want to colorize and then got to `Filters -> Enhance -
 - [x] Add Linux Support (primarily Arch based)
 - [x] Add MacOS Support
 - [x] Add installation script for Windows and Linux
+- [x] Cleanup code
 - [ ] Maybe create a precompiled binary with Cython to C
     - [ ] Create Installer for Windows which places the Binary into the Plugins
     - [ ] Add as an AUR Package to be easily installed for Arch-based systems 
-- [ ] Cleanup code
 - [ ] Maybe write own colorization algorithm based on this [paper](https://arxiv.org/pdf/1603.08511v3.pdf)
 
 
