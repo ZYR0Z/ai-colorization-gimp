@@ -103,6 +103,16 @@ def read_api_key():
             "plug-ins",
             "colorize_api_key.json",
         )
+    elif current_system == "Darwin":
+        api_key_file = os.path.join(
+            user_path,
+            "Library",
+            "Application Support",
+            "GIMP",
+            "2.10",
+            "plug-ins",
+            "colorize_api_key.json",
+        )
     else:
         gimp.message("This Operating System is not supported!")
         return ""
