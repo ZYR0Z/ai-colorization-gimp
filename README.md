@@ -91,9 +91,9 @@ Just select the layer you want to colorize and then got to `Filters -> Enhance -
 <!-- ROADMAP -->
 ## Roadmap
 - [x] Add Linux Support (primarily Arch based)
-- [x] Add MacOS Support
 - [x] Add installation script for Windows and Linux
 - [x] Cleanup code
+- [ ] Add MacOS Support (Install Script + modfiy api_key_read())
 - [ ] Maybe create a precompiled binary with Cython to C
     - [ ] Create Installer for Windows which places the Binary into the Plugins
     - [ ] Add as an AUR Package to be easily installed for Arch-based systems 
